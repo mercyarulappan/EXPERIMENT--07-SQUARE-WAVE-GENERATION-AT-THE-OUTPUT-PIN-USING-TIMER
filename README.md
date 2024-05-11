@@ -47,15 +47,25 @@ In normal settings, assuming you’re using the timer module in PWM mode and gen
 
 ## Procedure:
 Step1: Open CubeMX & Create New Project
-Step2: Choose The Target MCU & Double-Click Its Name select the target to be programmed 
+
+Step2: Choose The Target MCU & Double-Click Its Name select the target to be programmed
+
 Step3: Configure Timer2 Peripheral To Operate In PWM Mode With CH1 Output
+
 Step4: Set The RCC External Clock Source
+
 Step5: Go To The Clock Configuration
+
 Step6: Set The System Clock To Be 72MHz
+
 Step7: Name & Generate The Project Initialization Code For CubeIDE or The IDE You’re Using
+
 Step8.  Creating Proteus project and running the simulation
+
 Step9. Create a new Proteus project and place STM32F40xx i.e. the same MCU for which the project was created in STM32Cube IDE. 
+
 Step10. Double click on the the MCU part to open settings. Next to the Program File option, give full path to the Hex file generated using STM32Cube IDE. Then set the external crystal frequency to 8M  
+
 Step11. click on debug and simulate using simulation as shown below 
 
 ## STM 32 CUBE PROGRAM :
